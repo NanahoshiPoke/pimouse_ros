@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="pimouseros" name="buzzer" type="buzzer.py" required="true" />
+    <node pkg="pimouseros" name="lightsensors" type="lightsensors.py" required="true" />
+    <node pkg="pimouseros" name="motors" type="motors.py" required="true" />
+</launch>
